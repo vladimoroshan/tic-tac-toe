@@ -19,7 +19,8 @@ To be honest I am not really happy with this particular project. I spend hours j
 ##Here it is html of my humble game
 ==
 
-``` html
+```html
+
 <div id="wrap">   
 <div id="image"></div>
 
@@ -62,5 +63,6 @@ To be honest I am not really happy with this particular project. I spend hours j
 <footer id="footer" > 
 <a href="https://www.linkedin.com/in/vlad-moroshan-266229129?trk=nav_responsive_tab_profile" target="_blank"><em>Feedback</em></a>
 </footer>
+
 ```
 
