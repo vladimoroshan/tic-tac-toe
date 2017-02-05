@@ -17,7 +17,7 @@ My game has 3 levels difficulty plus for two players. I didn't implement my know
 To be honest I am not really happy with this particular project. I spend hours just trying to find a similar font. Styling tags <select> <option > was quite challenging. Anyway, I had a good lesson of never be a copycat. It is much harder! I think better create something on your own, and implement good features of others.
 
 ##Here it is html of my humble game
-==
+
 
 ```html
 
