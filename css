@@ -1,0 +1,163 @@
+#wrap {  
+  margin: 10px auto 10px;  
+  width: 800px;
+  text-align: center;
+  min-width: 400px;
+  border: 1px solid #d3d3d3;
+  font: 1em 'Varela Round', sans-serif; 
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#image {  
+  height: 170px;
+  background: url("https://41dmav17y2a239wj1k1kd0yt-wpengine.netdna-ssl.com/monitor/wp-content/uploads/sites/3/2016/11/tic-tac-toe-screenshot.png");
+  background-repeat: no-repeat;
+}
+
+#top {
+  height: 160px; 
+  color: #747474;
+  border-top: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+}
+
+#dropdown {  
+  text-align: left;
+  margin: 20px;
+}
+
+select {  
+  padding: 10px;  
+  background: none;
+  width: auto;
+  font: 1.2em 'Raleway', sans-serif; 
+  color: #747474; 
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  appearance: none;  
+  -webkit-appearance: none;
+  white-space: nowrap;
+  outline: none;
+}
+
+select option { 
+  background: white; 
+  font: 1em 'Varela Round', sans-serif; 
+  color: black; 
+  box-shadow: 20px 20px black;
+  outline: none;
+} 
+
+option:checked, option:hover {
+    background: #f8f8f8;
+}
+
+#cross, #nought {  
+  display: inline-block;
+  margin: -10px 4px 20px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #f6f6f6;
+  border-radius: 2px;
+  box-shadow: 1px 3px 10px #e0e0e0;
+  text-align: left;
+  font: 35px 'Varela Round', sans-serif;
+}
+
+.cn {
+  margin: 0px 130px 0px 20px;
+  color: black;
+}
+
+.count {
+  vertical-align: middle;
+  color: #939393;
+  font-size: 25px;
+}
+
+#message {
+  color: #939393;
+}
+
+#center { 
+  height: 410px; 
+  background-color: #14bdac;
+  vertical-align: middle;
+  text-align: center; 
+}
+
+#board {
+  display:block;
+  width: 374px;
+  margin: auto;
+  padding: 20px;  
+}
+
+#board li {  
+  list-style-type:none;
+  margin: 0px;
+  font: 105px 'Varela Round', sans-serif;
+  color: white;
+  width: 120px;
+  height: 120px;
+  float: left;  
+}
+
+#five {
+  border: 7px solid #0da192;  
+}
+
+#four, #six{
+  border-top: 7px solid #0da192;
+  border-bottom: 7px solid #0da192;
+}
+
+#two, #eigth{
+  border-left: 7px solid #0da192;
+  border-right: 7px solid #0da192;
+}
+
+#crossWin, #noughtWin, #tie {
+  display:none;
+  width: 374px;
+  margin: auto;
+  padding-top: 0px; 
+  font: 5em 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #545454; 
+}
+
+.x{
+   font: 3em 'Varela Round', sans-serif; 
+}
+
+.o {
+  font: 2.5em 'Varela Round', sans-serif;
+  color: white;
+}
+
+#bottom {
+  height: 85px;
+  width: 100%;
+  cursor:pointer;
+  border: none;
+  outline:none;
+  font: 1.2em 'Raleway', sans-serif; 
+  color: #14bdbc;  
+  background-color:#f8f8f8; 
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+#footer {
+  font-family: sans-serif;
+  font-size: 12px;  
+  height: 30px;   
+  text-align: right;
+}
+
+a{
+  color: #747474;
+  text-decoration:none
+}
