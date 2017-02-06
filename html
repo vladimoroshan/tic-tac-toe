@@ -12,8 +12,8 @@
       </select>
     </div>
     
-      <div id="cross"><span class="cn">x</span><span class="count">-</span></div>
-      <div id="nought"><span class="cn">o</span><span class="count">1</span></div>    
+      <div id="cross"><span class="cn">x</span><span class="count" id="scoreX">-</span></div>
+      <div id="nought"><span class="cn">o</span><span class="count" id="scoreO">-</span></div>    
     <div id="message">Start game</div>
   </div>
   
@@ -29,7 +29,13 @@
       <li id="eigth" value="7"></li>
       <li id="ninen" value="8"></li>
     </ul>
-   <div id="result"><div id="winner">x</div> WINNER!</div>
+   
+    <div class="result" id="crossWin"><span class="x">&#x02A2F;</span><br>WINNER!</div>
+
+    <div class="result" id="noughtWin"><span class="o">&bigcirc;</span><br>WINNER!</div>
+
+    <div class="result" id="tie"><span class="x">&#x02A2F;</span> <span class="o">&bigcirc;</span> <br>Draw!</div>
+   
 </div>
   
  <button id="bottom">
@@ -40,4 +46,5 @@
 <footer id="footer" > 
 <a href="https://www.linkedin.com/in/vlad-moroshan-266229129?trk=nav_responsive_tab_profile" target="_blank"><em>Feedback</em></a>
 </footer>
+
 
