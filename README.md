@@ -1,6 +1,6 @@
 # Tic-Tac-Toe ("Noughts and Crosses") game with Javascript
 
-What it is look like? View demo [here at codepen] (http://codepen.io/Moroshan/full/wgdxXm/)
+What it is look like? View demo [here at codepen](http://codepen.io/Moroshan/full/wgdxXm/)
 
 ## What is this all about?
 
